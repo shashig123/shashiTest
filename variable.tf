@@ -1,4 +1,6 @@
 variable "rg_name" {
-    type=set(string)
-  
+  type = map(object({
+    rg_name     = string
+    rg_location = string
+  }))
 }
