@@ -1,4 +1,4 @@
 variable "rg_name" {
-    # type=set(string)
+    type=set(string)
   
 }
