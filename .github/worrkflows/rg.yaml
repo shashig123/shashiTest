@@ -2,6 +2,7 @@ name: "infra pipeline"
 on: workflow_dispatch
 
 jobs:
-    runs-on: self-hosted
+    runs-on: ubantu-latest
     steps:
         - run: echo Hello world!
+
